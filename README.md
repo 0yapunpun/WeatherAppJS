@@ -16,3 +16,5 @@ This page it's a simple implementation of API consume component. The user insert
 * OpenWather API
 * HTML
 * CSS
+
+Currently it's another case of "Works on My Machine" due the demo host empede to make API request :/
