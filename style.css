@@ -1,0 +1,85 @@
+body{
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  color: white;
+  background: rgb(58,83,180);
+  background: linear-gradient(90deg, rgba(58,83,180,1) 5%, rgba(252,176,69,1) 49%, rgba(253,29,29,0.8827906162464986) 98%);    
+  background-size: 300%;
+  animation: backgroundAnimation 20s infinite alternate;
+}
+
+@keyframes backgroundAnimation{
+  0%{background-position: left}
+  100%{background-position: right;}
+}
+
+.coldWeather{
+  animation: none;
+  background-position: left;
+}
+
+.cooldWeather{
+  animation: none;
+  background-position: center;
+}
+
+.warmWeather{
+  animation: none;
+  background-position: right;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.formulay{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+input{
+  height: 50px;
+  width: 350px;
+  background-color: transparent;
+  border: none;
+  border-bottom: dotted 3px white;
+  color: white;
+  font-weight: 500;
+}
+
+input:focus {
+  outline:none;
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  border-bottom: dotted 3px white;
+}
+
+.displayInfo{
+  width: 400px;
+  height: 200px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-size: 50px;
+}
+
+.tag{
+  font-size: 14px;
+  position: absolute; 
+  top: 95%;
+  left: 310px;
+
+}

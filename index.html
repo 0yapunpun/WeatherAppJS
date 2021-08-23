@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather app</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="displayInfo">
+      <div class="temp"></div>
+      <div class="state"></div>
+      <div class="place"></div>
+    </div>
+
+    <div class="formulay">
+      <input type="text" id="nameInput" spellcheck="false">
+      <button onclick="submmitBut()">→</button>
+    </div>
+  </div>
+  
+  <div class="tag">Made by San &copy:2021</div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
